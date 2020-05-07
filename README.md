@@ -15,7 +15,7 @@
 <h2>Documentation</h2>
 <ul>
 	<li>
-		<a href = "https://github.com/NadaIhabAhmed/Image-Processing-/tree/master/Proposal">Proposal</a>
+		<a href = "https://github.com/NadaIhabAhmed/trial/tree/master/Cover_Photo/Cover.PNG">Proposal</a>
 	</li>
 </ul>
 
