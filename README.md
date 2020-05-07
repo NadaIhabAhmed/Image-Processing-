@@ -1,7 +1,7 @@
 <h1>Gate Analyzer Desktop Application</h1>
 
 
-<img src = "https://github.com/NadaIhabAhmed/trial/blob/master/Cover_Photo/Cover.PNG" width="400" height="500">
+<img src = "https://github.com/NadaIhabAhmed/Image-Processing-/tree/master/Cover_Photo/Cover.PNG" width="400" height="500">
 
 
 <h2>Video</h2>
