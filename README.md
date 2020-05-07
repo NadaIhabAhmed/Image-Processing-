@@ -1,8 +1,7 @@
 <h1>Gate Analyzer Desktop Application</h1>
 
 
-<img src = "" width="560" height="315">
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/7RAbdAztdfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<img src = "https://github.com/NadaIhabAhmed/trial/blob/master/Cover_Photo/Cover.PNG" width="400" height="500">
 
 
 <h2>Video</h2>
@@ -15,7 +14,7 @@
 <h2>Documentation</h2>
 <ul>
 	<li>
-		<a href = "https://github.com/NadaIhabAhmed/trial/tree/master/Cover_Photo/Cover.PNG">Proposal</a>
+		<a href = "https://github.com/NadaIhabAhmed/Image-Processing-/tree/master/Proposal">Proposal</a>
 	</li>
 </ul>
 
