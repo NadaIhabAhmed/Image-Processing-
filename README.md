@@ -1,8 +1,7 @@
 <h1>Gate Analyzer Desktop Application</h1>
 
 
-<img src = "" width="560" height="315">
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/7RAbdAztdfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<img src = "https://github.com/NadaIhabAhmed/Image-Processing-/tree/master/Cover_Photo/Cover.PNG" width="560" height="700">
 
 
 <h2>Video</h2>
