@@ -40,6 +40,17 @@ Note: the file is too large so we uploaded it on google drive.
 </li>
 <li>
 Download the image samples from this <a href = "https://github.com/NadaIhabAhmed/Image-Processing-/tree/master/Image%20Samples">Link</a>
+
+<h4>Note:</h4> 
+If you want to input your own hand drawn diagram,
+the image must be subjected to the following constraints:
+<ol>
+<li>Gates and lines must be clear</li>
+<li>The Lighting of the image must be good, and uniform over the image</li>
+</ol>
+
+
+
 </li>
 	
 <h2>Required Packages and Libraries: </h2>
