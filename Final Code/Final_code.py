@@ -374,28 +374,38 @@ root.geometry("600x600")
 
 
 def onclick(root=root):
+    error = 0
     path = askopenfilename()
-    equation, array_line, final_image, output = segment(path)
+    try:
+        equation, array_line, final_image, output = segment(path)
+    except:
+        qoute = "Image is not clear enough, please try again"
+        error = 1
+        # ------------Text Box-------------
+        T = Text(root, height=20, width=50)
+        T.place(x=90, y=380)
+        T.insert(END, qoute)
 
-    new_img_for_gui = np.copy(final_image)
-    for i in array_line:
-        font = cv2.FONT_HERSHEY_SIMPLEX
-        cv2.putText(new_img_for_gui, str(i[0]), (i[3], i[4]), font, 2, (0, 0, 255), 5, cv2.LINE_AA)
+    if error == 0:
+        new_img_for_gui = np.copy(final_image)
+        for i in array_line:
+            font = cv2.FONT_HERSHEY_SIMPLEX
+            cv2.putText(new_img_for_gui, str(i[0]), (i[3], i[4]), font, 2, (0, 0, 255), 5, cv2.LINE_AA)
 
-    img = cv2.cvtColor(new_img_for_gui, cv2.COLOR_BGR2RGB)
-    im = Image.fromarray(img)
-    im = im.resize((300, 200), Image.ANTIALIAS)
-    im.save("ArtWrk.ppm", "ppm")
-    tkimage = ImageTk.PhotoImage(im)
-    myvar = Label(root, image=tkimage)
-    myvar.image = tkimage
-    myvar.place(x=115, y=150)
-    # ------------Text Box-------------
-    T = Text(root, height=20, width=50)
-    T.place(x=90, y=380)
-    quote = equation
-    T.insert(END, quote)
-    verilog(equation, output)
+        img = cv2.cvtColor(new_img_for_gui, cv2.COLOR_BGR2RGB)
+        im = Image.fromarray(img)
+        im = im.resize((300, 200), Image.ANTIALIAS)
+        im.save("ArtWrk.ppm", "ppm")
+        tkimage = ImageTk.PhotoImage(im)
+        myvar = Label(root, image=tkimage)
+        myvar.image = tkimage
+        myvar.place(x=115, y=150)
+        # ------------Text Box-------------
+        T = Text(root, height=20, width=50)
+        T.place(x=90, y=380)
+        quote = equation
+        T.insert(END, quote)
+        verilog(equation, output)
 
 
 # Adding widgets to the root window
