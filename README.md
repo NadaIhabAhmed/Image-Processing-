@@ -7,7 +7,7 @@
 <h2>Video</h2>
 <ul>
 	<li>
-		<a href = "">Click for a Demo!</a>
+		<a href = "https://youtu.be/f1s3bO3QfA4">Click for a Demo!</a>
 	</li>
 </ul>
 
